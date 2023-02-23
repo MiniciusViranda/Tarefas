@@ -8,6 +8,7 @@ public class TextFieldTest {
         textFieldFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         textFieldFrame.setSize(350,100);
         textFieldFrame.setLocationRelativeTo(null);
+        textFieldFrame.setResizable(false);
         textFieldFrame.setVisible(true);
     }
 }
