@@ -1,0 +1,16 @@
+package Ex3;
+
+import javax.swing.JFrame;
+
+public class GridLayoutDemo {
+
+    public static void main(String[] args) {
+        
+        GridLayoutFrame gridLayoutFrame = new GridLayoutFrame();
+        gridLayoutFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        gridLayoutFrame.setSize(300,200);
+        gridLayoutFrame.setResizable(false);
+        gridLayoutFrame.setLocationRelativeTo(null);
+        gridLayoutFrame.setVisible(true);
+    }
+}
